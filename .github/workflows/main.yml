@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@master
+    - uses: actions/checkout@testing
 
     - id: file_changes
       uses: trilom/file-changes-action@v1.2.3
